@@ -13,7 +13,11 @@ public class Airplane {
     /**
     * Speed variable.
     */
-    private int speed = 0;
+    private int speed;
+
+    public Airplane() {
+        speed = 0;
+    }
 
     /**
     * Setter.
