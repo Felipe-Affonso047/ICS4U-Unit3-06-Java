@@ -15,6 +15,9 @@ public class Airplane {
     */
     private int speed;
 
+    /**
+    * Construct.
+    */
     public Airplane() {
         speed = 0;
     }
